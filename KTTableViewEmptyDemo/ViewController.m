@@ -32,9 +32,27 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
-    [self.tableView addNoteViewWithpicName:@"bg_no_grab" noteText:@"我们的需求是btn刷新、硬要下拉刷新看类别里" refreshBtnImg:@"detail_btn_filladdress.png"];
+    
+    //默认
+    [self addNoteView];
+    //自定义
+//    [self addCustomNoteView];
+    
     [self.tableView reloadData];
 }
+
+- (void)addNoteView {
+    [self.tableView addNoteViewWithpicName:@"bg_no_grab" noteText:@"我们的需求是btn刷新、硬要下拉刷新看类别里" refreshBtnImg:@"detail_btn_filladdress.png"];
+}
+
+- (void)addCustomNoteView {
+    UILabel * customNoteView = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 200, 100)];
+    customNoteView.numberOfLines = 0;
+    customNoteView.text = @"I am the Custom NoteView I am the Custom NoteView I am the Custom NoteView I am the Custom NoteView I am the Custom NoteView I am the Custom NoteView I am the Custom NoteView I am the Custom NoteView ";
+    self.tableView.noteView = customNoteView;
+}
+
+
 
 
 - (IBAction)btn1Click:(id)sender {
