@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA1E9FB41D77FD58004B65AD"
-               BuildableName = "TableViewNoteViewDemo.app"
-               BlueprintName = "TableViewNoteViewDemo"
-               ReferencedContainer = "container:TableViewNoteViewDemo.xcodeproj">
+               BlueprintIdentifier = "DA3C38811E306396004AFCCD"
+               BuildableName = "KTTableViewEmptyDemo.app"
+               BlueprintName = "KTTableViewEmptyDemo"
+               ReferencedContainer = "container:KTTableViewEmptyDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA1E9FB41D77FD58004B65AD"
-            BuildableName = "TableViewNoteViewDemo.app"
-            BlueprintName = "TableViewNoteViewDemo"
-            ReferencedContainer = "container:TableViewNoteViewDemo.xcodeproj">
+            BlueprintIdentifier = "DA3C38811E306396004AFCCD"
+            BuildableName = "KTTableViewEmptyDemo.app"
+            BlueprintName = "KTTableViewEmptyDemo"
+            ReferencedContainer = "container:KTTableViewEmptyDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA1E9FB41D77FD58004B65AD"
-            BuildableName = "TableViewNoteViewDemo.app"
-            BlueprintName = "TableViewNoteViewDemo"
-            ReferencedContainer = "container:TableViewNoteViewDemo.xcodeproj">
+            BlueprintIdentifier = "DA3C38811E306396004AFCCD"
+            BuildableName = "KTTableViewEmptyDemo.app"
+            BlueprintName = "KTTableViewEmptyDemo"
+            ReferencedContainer = "container:KTTableViewEmptyDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA1E9FB41D77FD58004B65AD"
-            BuildableName = "TableViewNoteViewDemo.app"
-            BlueprintName = "TableViewNoteViewDemo"
-            ReferencedContainer = "container:TableViewNoteViewDemo.xcodeproj">
+            BlueprintIdentifier = "DA3C38811E306396004AFCCD"
+            BuildableName = "KTTableViewEmptyDemo.app"
+            BlueprintName = "KTTableViewEmptyDemo"
+            ReferencedContainer = "container:KTTableViewEmptyDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

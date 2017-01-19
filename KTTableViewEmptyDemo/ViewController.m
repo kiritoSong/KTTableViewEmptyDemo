@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UITableView+NoteView.h"
+#import "UITableView+Empty.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,7 +28,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.tableView = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStyleGrouped];
     
-
+    
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];

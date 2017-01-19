@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TableViewNoteViewDemo.xcscheme</key>
+		<key>KTTableViewEmptyDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DA1E9FB41D77FD58004B65AD</key>
+		<key>DA3C38811E306396004AFCCD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

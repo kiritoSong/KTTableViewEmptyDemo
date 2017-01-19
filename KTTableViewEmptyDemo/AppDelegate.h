@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  TableViewNoteViewDemo
+//  KTTableViewEmptyDemo
 //
-//  Created by kirito_song on 16/9/1.
-//  Copyright © 2016年 kirito_song. All rights reserved.
+//  Created by kirito_song on 17/1/19.
+//  Copyright © 2017年 kirito_song. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
