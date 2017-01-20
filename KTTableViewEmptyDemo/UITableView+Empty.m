@@ -71,7 +71,7 @@ static char noteViewKey = 'a';
     
     CategoryNoteView *noteView = [[CategoryNoteView alloc] newNoteViewInView:self];
     [noteView addNoteViewWithpicName:picName noteText:noteText refreshBtnImg:btnImg];
-    if (noteView.refreshBtn) {
+    if (btnImg) {
         [noteView.refreshBtn addTarget:self action:@selector(noteViewBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
     //self.noteView可能有两种。另一种为使用者自定义传入
@@ -181,7 +181,7 @@ static char noteViewKey = 'a';
 //        make.top.mas_equalTo(self.bgImgView.mas_bottom).offset(20);
 //    }];
 //
-//    if (self.refreshBtn) {
+//    if (_refreshBtn) {
 //        [self.refreshBtn mas_updateConstraints:^(MASConstraintMaker *make) {
 //            make.centerX.equalTo(self);
 //            make.top.mas_equalTo(refreshBtnLayoutView.mas_bottom).offset(20);

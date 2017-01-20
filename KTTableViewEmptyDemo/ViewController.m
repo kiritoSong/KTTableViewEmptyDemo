@@ -42,7 +42,7 @@
 }
 
 - (void)addNoteView {
-    [self.tableView addNoteViewWithpicName:@"bg_no_grab" noteText:@"我们的需求是btn刷新、硬要下拉刷新看类别里" refreshBtnImg:@"detail_btn_filladdress.png"];
+    [self.tableView addNoteViewWithpicName:@"bg_no_grab" noteText:@"我们的需求是btn刷新、硬要下拉刷新看类别里" refreshBtnImg:nil];
 }
 
 - (void)addCustomNoteView {
