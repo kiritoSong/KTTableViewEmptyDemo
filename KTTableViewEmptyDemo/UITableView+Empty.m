@@ -101,7 +101,7 @@ static char noteViewKey = 'a';
     NSInteger numberOfSections = [dataSource numberOfSectionsInTableView:self];
     
     for (int i = 0; i < numberOfSections; i++) {
-        if ( [dataSource tableView:self numberOfRowsInSection:numberOfSections] == 0) {
+        if ( [dataSource tableView:self numberOfRowsInSection:i] == 0) {
 //            [self addSubview:self.noteView];
             [self.superview addSubview:self.noteView];
             return;
