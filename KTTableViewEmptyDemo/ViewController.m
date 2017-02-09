@@ -72,9 +72,15 @@
     return self.numberOfSections;
 }
 
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if (section == 1) {
+        return 0;
+    }
     return ((section%2)==0)?1:2;
 }
+
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell * cell = [UITableViewCell new];
